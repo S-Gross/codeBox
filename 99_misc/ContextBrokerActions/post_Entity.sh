@@ -1,0 +1,1 @@
+curl 137.226.75.89:1026/ngsi10/contextEntities/Test -X POST -s -S --header 'Content-Type: application/json' --header 'Accept: application/json' -d "{\"attributes\" : [ { \"name\" : \"aName\", \"type\" : \"aType\", \"value\" : \"aValue\" } ]}"
